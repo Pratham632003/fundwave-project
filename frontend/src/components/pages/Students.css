@@ -1,0 +1,54 @@
+.student{
+    width:80%;
+    margin:auto;
+    padding: 20px;
+}
+
+.thead-dark{
+    background-color: #343a40;
+    color: white;
+}
+
+td > button{
+    background-color: #343a40;
+    color: white;
+    border: none;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.red{
+    color: red;
+    font-weight: 500;
+}
+
+.green{
+    color: green;
+    font-weight: 500;
+}
+
+
+@media screen and (max-width: 600px) {
+    .student{
+        width:100%;
+        margin:auto;
+        overflow: scroll;
+    }
+    
+    .thead-dark{
+        background-color: #343a40;
+        color: white;
+    }
+    
+    td > button{
+        background-color: #343a40;
+        color: white;
+        border: none;
+        padding: 5px;
+        margin: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}

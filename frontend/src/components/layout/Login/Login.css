@@ -1,0 +1,202 @@
+.login{
+    width: 900px !important;
+    display: flex;
+    flex-direction: row;
+}
+
+.login__leftContainer{
+    flex: 0.5;
+    background-image: url('https://st.depositphotos.com/1874171/2411/v/600/depositphotos_24110543-stock-illustration-keyhole-on-metal-background-vector.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 75vh;
+}
+
+.signup__leftContainer{
+    flex: 0.5;
+    background-image: url('https://st.depositphotos.com/1874171/2411/v/600/depositphotos_24110543-stock-illustration-keyhole-on-metal-background-vector.jpg');
+    background-image: url('https://images.unsplash.com/photo-1503792243040-7ce7f5f06085?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8a2V5fGVufDB8fDB8fA%3D%3D&w=1000&q=80');
+    border: 1px solid grey;
+    border-bottom: 1px solid grey;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    object-fit: cover;
+    width: 100%;
+    min-height: 74.7vh;
+    max-height: 100%;
+}
+
+.login__rightContainer{
+    flex: 0.5;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: auto;
+    font-family:'Poppins', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.login__signIn{
+    font-size: 23px;
+    font-weight: 550;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    margin: 10px;
+}
+
+.login__name > input{
+    background-color: rgb(235, 230, 230);
+    padding: 8px;
+    height: 25px;
+    width: 300px;
+    margin: 8px;
+    border:none;
+    outline-width: 0;
+}
+
+.login__password > input{
+    background-color: rgb(235, 230, 230);
+    padding: 8px;
+    height: 25px;
+    width: 300px;
+    margin: 8px;
+    border:none;
+    outline-width: 0;
+}
+
+.login__forgotPass{
+    font-size: small;
+    text-align: end;
+    width: 71%;
+    margin: auto;
+}
+
+.login__button{
+    border: none;
+    background-color: #3454D2;
+    height: auto;
+    padding: 8px;
+    margin: 1vh 0 1vh 70px;
+    min-width: 80px;
+    max-width: max-content;
+    color: rgb(235, 229, 229);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.login__submitButton{
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+.login__signupLink{
+    font-size: small;
+    margin-top: 2vh;
+}
+
+.login__signupLink > p > button{
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #162a77;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+@media screen and (max-width: 600px) {
+    .login{
+        width: 300px !important;
+    }
+    
+    .login__leftContainer{
+        display: none;
+    }
+    
+    .signup__leftContainer{
+        display: none;
+    }
+    
+    .login__rightContainer{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: auto;
+        font-family:'Poppins', Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .login__signIn{
+        font-size: 23px;
+        font-weight: 550;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: black;
+        margin: 10px;
+    }
+    
+    .login__name > input{
+        background-color: rgb(235, 230, 230);
+        padding: 8px;
+        height: 25px;
+        max-width: fit-content;
+        margin: 2vh;
+        border:none;
+        outline-width: 0;
+    }
+    
+    .login__password > input{
+        background-color: rgb(235, 230, 230);
+        padding: 8px;
+        height: 25px;
+        max-width: fit-content;
+        margin: 1vh;
+        border:none;
+        outline-width: 0;
+    }
+    
+    .login__forgotPass{
+        font-size: small;
+        text-align: end;
+        max-width: fit-content;
+        margin-top: 1vh;
+    }
+    
+    .login__button{
+        border: none;
+        background-color: #3454D2;
+        height: auto;
+        padding: 8px;
+        margin: 2vh 0 2vh 15px;
+        min-width: 80px;
+        max-width: max-content;
+        color: rgb(235, 229, 229);
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    
+    .login__submitButton{
+        display: none;
+        width: 0;
+        height: 0;
+    }
+    
+    .login__signupLink{
+        font-size: small;
+        margin-top: 2vh;
+    }
+    
+    .login__signupLink > p > button{
+        text-decoration: none;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: #162a77;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    
+}

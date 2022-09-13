@@ -1,0 +1,125 @@
+.footer{
+    height: auto;
+    width: 70%;
+    margin: 15vh auto 2vh auto;
+    padding-top: 30px;
+    border-top: 2px solid rgb(223, 220, 220);
+    display: flex;
+    flex-direction: row;
+    color: #1842e9;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+}
+
+.footer__left{
+    flex: 0.5;
+}
+
+.footer__heading{
+    font-weight: 500;
+    font-size: medium;
+    color: #162a77;
+}
+
+.footer__quote{
+    margin: 3vh 0 0 0;
+    font-size: small;
+    max-width: 40%;
+}
+
+.footer__copyright{
+    margin: 15vh 0 0 0;
+    font-size: small;
+}
+
+.footer__right{
+    flex: 0.5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer__right__heading{
+    font-size: medium;
+    font-weight: 700;
+    color: #162a77;
+}
+
+.footer__right__content{
+    margin: 4vh 0 0 0;
+    line-height: 5vh;
+}
+
+.footer__right__row4{
+    text-align: center;
+    font-size: larger;
+}
+
+
+@media screen and (max-width: 600px) {
+    .footer{
+        height: auto;
+        width: 80%;
+        margin: 3vh auto 1vh auto;
+        padding-top: 30px;
+        border-top: 2px solid rgb(223, 220, 220);
+        display: flex;
+        flex-direction: row;
+        color: #1842e9;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+          "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+          sans-serif;
+    }
+    
+    .footer__left{
+        flex: 0.3;
+    }
+    
+    .footer__heading{
+        font-weight: 500;
+        font-size: 0.9rem;
+        color: #162a77;
+    }
+    
+    .footer__quote{
+        margin: 1vh 0 0 0;
+        font-size: 0.7rem;
+        min-width: 14vw;
+    }
+    
+    .footer__copyright{
+        margin: 4vh 0 0 0;
+        font-size: 0.6rem;
+    }
+    
+    .footer__right{
+        flex: 0.7;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        font-size: 0.8rem;
+    }
+    
+    .footer__right__heading{
+        font-size: 0.9rem;
+        font-weight: 700;
+        color: #162a77;
+    }
+    
+    .footer__right__content{
+        margin: 1vh 0 0 0;
+        line-height: 1vh;
+    }
+
+    .footer__right__content > p{
+        line-height: 1.7vh;
+        padding: 1vh;
+    }
+    
+    .footer__right__row4{
+        text-align: center;
+        font-size: 0.9rem;
+    }
+    
+}

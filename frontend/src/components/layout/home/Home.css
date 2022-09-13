@@ -1,0 +1,261 @@
+.home{
+    display: flex;
+}
+
+.home__left{
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+          "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+          sans-serif;
+}
+
+.text{
+    font-size: 2.5rem;
+    line-height: 2.5vmax;
+}
+
+.home__buttons{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
+}
+
+.home__button1 , .home__button3{
+    font-size: 1.3rem;
+    margin: 15px;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+    border: 2px solid #4DCBFA;
+    background-color: white;
+    color: #4DCBFA;
+    cursor: pointer;
+}
+
+.home__button1:hover , .home__button3:hover{
+    background-color: #4DCBFA;
+    color: white;
+    transition: all 0.5s;
+
+}
+
+.home__button2  , .home__button4{
+    font-size: 1.3rem;
+    margin: 15px;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+    border: 2px solid #4DCBFA;
+    background-color: #4DCBFA;
+    color: white;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+.home__button2:hover , .home__button4:hover{
+    background-color: white;
+    color: #4DCBFA;
+    transition: all 0.5s;
+}
+
+.home__button3 , .home__button4{
+    width: 150px;
+}
+
+.home__right{
+    flex: 0.5;
+}
+
+.home__img > img{
+    width: 80%;
+}
+
+
+
+.MuiDialog-paperWidthSm {
+    height: 75vh;
+    min-width: 900px;
+    min-width: max-content;
+    background-color: black;
+    
+}
+.MuiDialog-container {
+    height: 100%;
+    outline: 0;
+}
+
+.MuiPaper-rounded {
+    border-radius: 0px !important; 
+}
+
+.MuiDialogContent-root {
+    flex: 1 1 auto;
+    padding: 0 0 0 0 !important;
+    overflow-y:hidden !important;
+}
+
+.MuiDialogActions-root {
+    flex: 0 0 auto;
+    display: flex;
+    padding: 0px !important;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.home__chart{
+    display: flex;
+}
+
+.lineChart {
+    width: 60%;
+    margin: auto;
+    padding: 10%;
+  }
+  
+  .doughnutChart {
+    width: 30vmax;
+    margin: auto;
+    padding: 4%;
+  }
+
+  
+@media screen and (max-width: 600px) {
+    .home{
+        display: flex;
+        justify-content:unset;
+    }
+    
+    .home__left{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .text{
+        font-size: 0.9rem;
+        line-height: 5px;
+    }
+    
+    .home__buttons{
+        display: flex;
+        justify-content: center;
+        padding: 1px;
+        
+    }
+    
+    .home__button1 , .home__button3{
+        font-size: 0.6rem;
+        margin: 15px;
+        padding: 5px;
+        width: 30%;
+        text-align: center;
+        border: 2px solid #4DCBFA;
+        background-color: white;
+        color: #4DCBFA;
+        cursor: pointer;
+    }
+
+    
+    .home__button1:hover , .home__button3:hover{
+        background-color: white;
+        color: #4DCBFA;
+        transition: all 0.5s;
+    }
+    
+    .home__button2:hover , .home__button:hover{
+        background-color: #4DCBFA;
+        color: white;
+        transition: all 0.5s;
+    
+    }
+    
+    .home__button2  , .home__button4{
+        font-size: 0.6rem;
+        margin: 15px;
+        padding: 5px;
+        width: 30%;
+        text-align: center;
+        border: 2px solid #4DCBFA;
+        background-color: #4DCBFA;
+        color: white;
+        cursor: pointer;
+    }
+    
+    a{
+        text-decoration: none;
+        padding: 2px;
+    }
+    
+    
+    .home__button3 , .home__button4{
+        font-size: 0.7rem;
+        width: 100%;
+        margin: 10px;
+    }
+
+    .home__img > img{
+        width: 100%;
+        height: 80%;
+    }
+    
+    
+    
+    .MuiDialog-paperWidthSm {
+        height: 50vh;
+        min-width: 200px;
+        background-color: black;
+        
+    }
+    .MuiDialog-container {
+        height: 80%;
+        outline: 0;
+    }
+    
+    .MuiPaper-rounded {
+        border-radius: 0px !important; 
+    }
+    
+    .MuiDialogContent-root {
+        flex: 1 1 auto;
+        padding: 0 0 0 0 !important;
+        overflow-y:hidden !important;
+    }
+    
+    .MuiDialogActions-root {
+        flex: 0 0 auto;
+        display: flex;
+        padding: 0px !important;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    
+    .home__chart{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3vmax;
+    }
+    
+    .lineChart {
+        width: 80%;
+        margin: auto;
+        padding: 2%;
+      }
+      
+      .doughnutChart {
+        width: 25vmax;
+        margin: auto;
+        padding: 1%;
+      }
+    
+      
+
+  }
+  
